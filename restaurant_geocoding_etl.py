@@ -6,7 +6,7 @@ from pyspark.sql.types import StructType, StructField, DoubleType
 # ── Config ────────────────────────────────────────────────────────────────────
 INPUT_DIR   = "/home/ubuntu/data/output/restaurant_combined.csv"
 OUTPUT_DIR  = "/home/ubuntu/data/output/restaurant_geocoded"
-API_KEY     = "2e61cac148e5472b8d5f07ac430733a5"   
+API_KEY     = ""   
 API_URL     = "https://api.opencagedata.com/geocode/v1/json"
 
 # ── Spark Session ─────────────────────────────────────────────────────────────
